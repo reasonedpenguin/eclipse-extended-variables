@@ -6,12 +6,12 @@ The default list of variables contains variables resource_loc which returns one 
 
 Our check in procedure at requires that we run a shell script on all the files that were just checked in.  Before the plug-in this was a complete pain.
 
-I find this plugin useful any time you want to run a script on a bunch of selected files.
+Any time you want to run a script on multiple selected files, add ${resource_locs} to the argument list.
 
 Installation
 ===========================
 
-* Download eclipse-extended-variables.zip 
+* Download [eclipse-extended-variables.zip](eclipse-extended-variables.zip)
 * unzip into your eclipse directory.
 
 
